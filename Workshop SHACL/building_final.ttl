@@ -1,0 +1,14 @@
+@prefix dbo: <https://dbpedia.org/ontology/> . 
+@prefix ex: <http://example.org/ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+	
+ex:Vertigo
+    a dbo:Building ;
+	rdfs:label "Vertigo" ;
+	dbo:buildingStartDate "1965"^^xsd:integer ; 
+	dbo:buildingEndDate "1961"^^xsd:integer ;
+        dbo:floorCount "9"^^xsd:positiveInteger ;
+        dbo:postalCode "6612AZ"^^xsd:string ; 
+	dbo:towerHeight "58"^^xsd:integer . 
