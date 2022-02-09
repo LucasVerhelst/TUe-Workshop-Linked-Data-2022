@@ -1,0 +1,13 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bot: <https://w3id.org/bot#>
+
+SELECT DISTINCT ?space_name
+
+WHERE 
+{
+
+  ?space rdf:type bot:Space . # ?space = Everything that is typed as a bot:Space
+  ?space rdfs:label ?space_name . # ?space_name = the label of each space
+
+} 

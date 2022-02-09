@@ -1,0 +1,23 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX otl: <https://data.tue.nl/otl/>
+SELECT DISTINCT 
+
+?floor_name 
+(SUM(?people) AS ?people_per_floor)
+
+WHERE 
+{
+
+    ?space rdf:type bot:Space .
+
+    GRAPH <https://triplydb.com/LucasVerhelst/TUe-Workshop/graphs/Occupancy/1>
+    {?space otl:occupancy ?people .}
+
+    ?space ^bot:contains ?floor. # floor of each space
+    ?floor rdfs:label ?floor_name . # floor_name = the label of each floor
+
+} 
+
+GROUP BY ?floor_name

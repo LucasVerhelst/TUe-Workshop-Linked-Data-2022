@@ -1,0 +1,231 @@
+ID;label;type;containedBy;function
+4b544750-c1f0-4433-a01a-7bb989cda99a;TU/e Campus;Site;;
+dfdb5fe2-7afe-479a-805b-a183d24632bd;Vertigo;Building;4b544750-c1f0-4433-a01a-7bb989cda99a;
+08771d78-83dd-4124-bdfe-e5bdf8b13370;Basement;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+c2dc1a3e-56c6-4d29-836e-78fa6efc57c5;Ground floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+88ba3eaa-aa23-48e2-8e59-889b4ba5f774;1st floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+19550a47-5401-4d01-a4b1-7e8691061fd4;2nd floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+5228b933-0e1e-4c55-b412-d7bccb0ea8c3;3rd floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+03b3e658-4a75-4f7d-87f1-d3f15d5bc612;4th floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+a2be5dfa-e964-4aaa-9b9c-82a61c61457f;5th floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+5f978e36-2a17-4c3d-b940-85842c770539;6th floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+cde21073-bb5b-4804-b05f-072dd6685c54;7th floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;8th floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+ced05a83-61cc-4d63-91e0-256011e401eb;9th floor;Storey;dfdb5fe2-7afe-479a-805b-a183d24632bd;
+cab612e5-a986-4dce-84a9-3acb9103fbfe;Skybar;Space;08771d78-83dd-4124-bdfe-e5bdf8b13370;Bar
+49b82bd2-80dc-4061-bd07-4c5a5f9a4f17;North hallway basement;Space;08771d78-83dd-4124-bdfe-e5bdf8b13370;Hallway
+82815c1a-fde6-45ee-9b9d-cc4b737c3f5d;West hallway basement;Space;08771d78-83dd-4124-bdfe-e5bdf8b13370;Hallway
+1bd2d917-505b-4f33-b1ed-c52eeb23b1f8;Toilet basement;Space;08771d78-83dd-4124-bdfe-e5bdf8b13370;Toilet
+673c7ec1-abba-48f9-a65b-15e555f2f11b;Lecture theater;Space;c2dc1a3e-56c6-4d29-836e-78fa6efc57c5;Meeting room
+aac9082d-ec38-48be-b336-c8ad75eee7bd;North hallway Ground floor;Space;c2dc1a3e-56c6-4d29-836e-78fa6efc57c5;Hallway
+10ea9be0-d3ca-48f0-bcba-7016e3274c64;West hallway Ground floor;Space;c2dc1a3e-56c6-4d29-836e-78fa6efc57c5;Hallway
+329a4928-a9c8-4405-98c9-8e946f2d300c;Room 0.t61;Space;c2dc1a3e-56c6-4d29-836e-78fa6efc57c5;Toilet
+6974e999-034e-4f1a-896a-ad7f32a9b0a1;Room 0.t62;Space;c2dc1a3e-56c6-4d29-836e-78fa6efc57c5;Toilet
+e8b89037-77d6-4ee9-b72c-2ee07b8b6157;Room 0.t63;Space;c2dc1a3e-56c6-4d29-836e-78fa6efc57c5;Toilet
+6238d798-a0c8-4776-81b5-3efa1d41ab19;Room 0.t64;Space;c2dc1a3e-56c6-4d29-836e-78fa6efc57c5;Toilet
+db311e18-d610-45ac-ad54-4516f565265b;Main exchibition area ground floor;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Hall
+45d1f966-f1bb-474b-a28e-b6aa959d0e78;CHEOPS room;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Workspace
+2e3135c2-50f9-40ed-aa43-074764fb2734;Café ground floor;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Café
+b2703f52-1bef-4d48-a88d-82640c76fce9;West Workspace 1st floor;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Workspace
+68818dec-7be0-4e0b-b4dd-a455d7f8e59b;North hallway 1st floor;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Hallway
+e488a395-eb1f-4341-b7c4-e18cc5c1238e;West hallway 1st floor;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Hallway
+e388d2fb-bdcf-49a3-8afe-03c50897a551;Room 1.t61;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Toilet
+89800161-bb9e-4e45-a3fb-3c6b64d68d53;Room 1.t62;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Toilet
+78255761-3004-45d0-9971-ca7447c0698b;Room 1.t63;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Toilet
+0375f0f3-7341-43c8-90b4-85564a0605a1;Room 1.t64;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Toilet
+841621c5-30c7-4404-ab54-5f445f3c4f54;Room 1.t65;Space;88ba3eaa-aa23-48e2-8e59-889b4ba5f774;Toilet
+18d9795b-3b83-4f0d-b499-008b219b1659;East Workspace 2nd floor;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Workspace
+ff8dab0c-e16e-4fb6-b7d4-15cc5637e3bc;Boards room;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Workspace
+c43703b8-d1d3-4cf4-a311-c352357c8308;Room 2.17;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Meeting room
+9fdab3a3-fc8d-412d-8eb3-8202dfb4d466;Room 2.18;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Meeting room
+8eaab2a6-83c0-4581-a578-5786120b7f63;Room 2.19;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Meeting room
+29bead22-c49a-44b0-a0de-f7c46b052cab;Room 2.20;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Meeting room
+840a2426-cc11-499d-941f-c658eb17b1cd;Room 2.t61;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Toilet
+bfc318f1-5b23-4817-9034-255705715e03;Room 2.t62;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Toilet
+9108605f-5260-4212-801f-07fe0f485adc;Room 2.t63;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Toilet
+345bb88b-4077-4059-9832-8a5447488bcd;Room 2.t64;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Toilet
+0275aa60-62bb-49ca-baaf-40e078db0989;Room 2.t65;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Toilet
+0677d6ca-be87-4675-ac5e-fb4d038064fc;North hallway 2nd floor;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Corridor
+460a3cdb-e1a5-4659-8a48-ab24d7799bd2;South hallway 2nd floor;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Corridor
+be6eded6-a45e-4c12-9110-fb3b9adff9ad;West hallway 2nd floor;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Corridor
+2400bac6-9e1d-4bbc-87fb-fb9080bd55a7;Room 2.12-a;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Workspace
+5e98be69-35b7-4487-a862-12e8b02242e6;Room 2.12-b;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Workspace
+53435981-8ba6-4423-b569-e686bd1f0e7a;Room 2.06;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Workspace
+392911f6-4457-48c7-92ce-964988250db3;Room 2.09;Space;19550a47-5401-4d01-a4b1-7e8691061fd4;Workspace
+9f7722d1-925b-4cbb-9338-6353e0d53098;East Workspace 3rd floor;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Workspace
+576e35d0-3297-4f2e-a15f-0906863fde5c;West Workspace 3rd floor;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Workspace
+f3659c5d-b993-4c11-b5ef-9a0c4f67d18e;Room 3.17;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Meeting room
+39522b40-455d-48ef-bcbe-f2d9e6129809;Room 3.18;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Meeting room
+a85a61d0-2753-47c0-a986-222219eebc41;Room 3.19;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Meeting room
+a420bc4e-48e4-43ee-9f57-cf8c1f68ca2b;Room 3.20;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Meeting room
+1bc25cab-7324-44d7-9bf3-afd94ba63c94;Room 3.t61;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Toilet
+0805f4a1-a9c7-438b-82c8-47e2a6e4bb6a;Room 3.t62;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Toilet
+03bbef3a-bd4f-4933-ac38-533366f47512;Room 3.t63;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Toilet
+3f804704-8221-4a59-a1bf-50cb617b7b8c;Room 3.t64;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Toilet
+f260b4ea-737e-4651-8c7f-01fd10566539;Room 3.t65;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Toilet
+3e94f32b-46a5-4cc5-9508-056c277eae7b;North hallway 3rd floor;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Corridor
+8a3a9c49-1724-4480-9472-87a0b0c65e1c;South hallway 3rd floor;Space;5228b933-0e1e-4c55-b412-d7bccb0ea8c3;Corridor
+d277f0c6-2657-476c-aeac-c528bcc0a8de;East Workspace 4th floor;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Workspace
+fc32d7d0-8814-4d12-9ee9-e1f7d8f97a04;West Workspace 4th floor;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Workspace
+443b7343-febe-4ab2-868d-f14edbc56560;Room 4.17;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Meeting room
+3592a898-1828-4b03-b0c8-9e44430f9480;Room 4.18;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Meeting room
+b46dee3e-9dc3-4c7e-94a0-1f438d81319d;Room 4.19;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Meeting room
+d3400219-78c0-4186-98f7-06b94ba42df7;Room 4.20;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Meeting room
+f9254bdb-0796-4359-bd47-bed412ed8445;Room 4.t61;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Toilet
+bf25a0e3-2ced-4f38-a933-6f2ca91256cd;Room 4.t62;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Toilet
+32f0f7c4-19e5-4f13-a07d-109615782446;Room 4.t63;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Toilet
+05eb5031-377f-4153-a866-1af096c3a80c;Room 4.t64;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Toilet
+f8acbc5b-b600-4aef-9e03-68426f87219d;Room 4.t65;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Toilet
+5f25ad7d-d3b7-4b05-9d6b-1fbe2fd04a33;North hallway 4th floor;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Corridor
+46b51aa2-3894-4895-9548-8ac09938dd4f;South hallway 4th floor;Space;03b3e658-4a75-4f7d-87f1-d3f15d5bc612;Corridor
+6b6d15d3-6ea6-41f1-9e86-75260c9a2419;East Workspace 5th floor;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Workspace
+7a86f919-f45d-4889-8773-ebfa355023cf;West Workspace 5th floor;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Workspace
+3096acf6-9775-4b69-b87e-397a80e74fe1;Room 5.17;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Meeting room
+ace9dd8e-4771-4804-918e-40c44f07313c;Room 5.18;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Meeting room
+2c2382e4-13f3-43b1-be7e-d84f5f44a47d;Room 5.19;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Meeting room
+617af63d-7dac-4721-91cd-24fc359b18be;Room 5.20;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Meeting room
+10b9d657-47cd-43ed-8c58-10cd3d74f1c8;Room 5.t61;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Toilet
+273d2ca1-c36c-4362-b9ab-5cb391d10ce0;Room 5.t62;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Toilet
+0b4ebc6e-48fc-4da3-b575-49192d18dd1f;Room 5.t63;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Toilet
+65f15600-0477-48f4-9735-e3b7359daaad;Room 5.t64;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Toilet
+18e9b03e-ae61-4600-a0c3-4bf9227356c6;Room 5.t65;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Toilet
+52c9e024-5b31-475a-a0d9-4eb8bf665a40;North hallway 5th floor;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Corridor
+c017c1c0-c05d-4d4d-96eb-835b3413e1f6;South hallway 5th floor;Space;a2be5dfa-e964-4aaa-9b9c-82a61c61457f;Corridor
+19d5283d-6929-49fb-b633-c8eb35e0b6b1;Room 6.01;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+0fdb3e82-b1e4-4c13-ab75-3fb762b9c69b;Room 6.02;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+4f01fa56-9b6d-4f42-9f43-6c3604824c25;Room 6.03;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+d102a011-0d76-45df-8a9c-183a6a2841e2;Room 6.04;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+b219b8f0-167f-43d0-ac3e-c57e4bd7a51b;Room 6.05;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+f8ab6e32-afd9-4f5a-9a8b-a8e842008c28;Room 6.06;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+d06adc7f-32f6-4938-9f5c-b2c746ffa1aa;Room 6.07;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+ea102f0e-36e0-4992-b750-30a2c7713a8e;Room 6.08;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+ebff0e51-6477-44d5-8858-22bc1350902c;Room 6.09;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+1608705e-00ca-41c5-8523-07aebcf2b6a6;Room 6.10;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+8205e17e-fccc-41d1-a1b3-652e61a7e25c;Room 6.11;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+3532faf8-7eb5-4d6d-b353-f7aa2a44e80e;Room 6.12;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+18f5eeef-0c8c-47ad-bade-09ce48cf1fd4;Room 6.13;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+ea7e4408-4340-45ce-9492-573b74be0260;Room 6.14;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+13360183-4af0-4be2-b092-bbfa81ef6e51;Room 6.15;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+306b5ef6-7760-4ac5-98fa-988fa53740d3;Room 6.16;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+38b3d64f-96c4-4e07-80ce-34d5ec3df606;Room 6.17;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+5624d6af-78f3-4f74-94d2-cd94e13bb085;Room 6.18;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+39041bd3-1e2e-4da7-a7af-baeaef7334bb;Room 6.19;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+32a5751c-dd0b-49b5-bfaa-fb637db634e1;Room 6.20;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+78d7fdf7-bc66-4cc3-b382-64bcc738d08e;Room 6.21;Space;5f978e36-2a17-4c3d-b940-85842c770539;Workspace
+cbc5a160-8371-44d5-bdce-41275334be7a;Room 6.22;Space;5f978e36-2a17-4c3d-b940-85842c770539;Meeting room
+628c6edb-35ac-4184-9af0-6b70a278ca2a;Room 6.23;Space;5f978e36-2a17-4c3d-b940-85842c770539;Meeting room
+0b8d7277-491c-4e49-9cff-8ba3787460f9;Room 6.24;Space;5f978e36-2a17-4c3d-b940-85842c770539;Meeting room
+dc8cfbdf-4d4c-4f7d-99ec-2d46d1a60754;Room 6.25;Space;5f978e36-2a17-4c3d-b940-85842c770539;Meeting room
+d0b0fe63-6217-482e-b8be-b4ce0f7bad94;Room 6.26;Space;5f978e36-2a17-4c3d-b940-85842c770539;Kitchen
+f8692136-735a-4baa-9f95-10b6edea3180;Room 6.27;Space;5f978e36-2a17-4c3d-b940-85842c770539;Hall
+c6f9773a-2b5b-4176-a436-d54da59b9db2;Room 6.t61;Space;5f978e36-2a17-4c3d-b940-85842c770539;Toilet
+ce8a1c06-d05c-4eea-b88d-a0b9f39b074c;Room 6.t62;Space;5f978e36-2a17-4c3d-b940-85842c770539;Toilet
+2b833140-fb1b-4a38-9aeb-5cb7dacb8c6e;Room 6.t63;Space;5f978e36-2a17-4c3d-b940-85842c770539;Toilet
+3ca55dc6-82b4-42e3-b65b-5d8686b24fc6;Room 6.t64;Space;5f978e36-2a17-4c3d-b940-85842c770539;Toilet
+4e27fda2-20cc-45fb-afa1-3a3b6e552f41;Room 6.t65;Space;5f978e36-2a17-4c3d-b940-85842c770539;Toilet
+ac817f0e-eb03-4f8f-92ad-5cc7a251b863;Hallway 6th floor;Space;5f978e36-2a17-4c3d-b940-85842c770539;Corridor
+a49c5596-898a-4900-81dd-8a809666fbc1;Room 7.01;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+c46b919a-98b7-4f4c-a43a-a437f68870a7;Room 7.02;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+eb2111f5-e8bd-4b8c-8907-401c97b4b822;Room 7.03;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+4f67f5e8-0894-4a3b-b36a-1e5f260961b3;Room 7.04;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+5f94706e-09ea-4699-8785-4b865b17a9e5;Room 7.05;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+7cfb4558-0183-4c6f-8aaf-cd70f0039c4d;Room 7.06;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+da899b54-6bb8-49b6-ad0a-36271d118752;Room 7.07;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+7d59d694-54e3-4424-86f7-c75408defa20;Room 7.08;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+96a49737-1f70-47b7-aea9-16efa4bf78ca;Room 7.09;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+91170cc0-3925-4cb8-9d3a-d456be5f3885;Room 7.10;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+d7a4a1c3-eb58-4c09-99b1-53fece1d63b7;Room 7.11;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+9ec9fc51-70a9-48fa-a82d-d20fbe9ae34e;Room 7.12;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+a148ef4d-fb6f-47fc-8a91-ecadbe06094b;Room 7.13;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+7ed4ebd2-0150-4ccf-952c-b495e75c6286;Room 7.14;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+a15f3217-4733-4c17-aaf0-41561566e5a1;Room 7.15;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+e749dc0b-039a-47e3-aa23-847d4b96258b;Room 7.16;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+3d77f621-2649-4dae-8fa5-b3f61fcee6a0;Room 7.17;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+fae43e06-e3aa-491c-abfa-9a7c60fb3a6b;Room 7.18;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+b77dd295-d46d-4f3f-9de2-47fb110eeb25;Room 7.19;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+f0d33ec1-e16d-4431-9740-62b01f34d4b3;Room 7.20;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+3c8f2035-b7b2-465f-8f43-daa3d98caaa4;Room 7.21;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Workspace
+ebe7ca68-abe0-4aab-b511-94175894d553;Room 7.22;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Meeting room
+6e8cbe79-122b-463a-89f7-52551d9b7c72;Room 7.23;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Meeting room
+c7004554-103a-445d-b450-7218b810ed35;Room 7.24;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Meeting room
+9e13ed5e-d3c0-4835-b273-4579f232b54d;Room 7.25;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Meeting room
+7a272b1e-9ed7-4bc3-8f71-036b6c7c585e;Room 7.26;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Kitchen
+487b3610-e97b-40c0-b0fa-47fe70808a4d;Room 7.27;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Hall
+3a39b2e6-eb04-45e8-9c03-c3888ad0fe0c;Room 7.t61;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Toilet
+c5adcc3c-d974-417a-97e5-322cf3989ef7;Room 7.t62;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Toilet
+60591889-42bd-4521-8b71-6edbad5b0344;Room 7.t63;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Toilet
+621a572d-933b-442a-8a97-9b3b339f4d7c;Room 7.t64;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Toilet
+b86cb065-9db0-42a6-8209-1cfb2f178729;Room 7.t65;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Toilet
+7e794d4b-a9aa-4d66-9a50-5577d82d5469;Hallway 7th floor;Space;cde21073-bb5b-4804-b05f-072dd6685c54;Corridor
+d89ba9f5-74a8-486e-974a-f7b1f714b456;Room 8.01;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+c63c8719-02e5-4225-a196-aa47eb510530;Room 8.02;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+b2dd9a19-6e24-4535-9f5a-24c235b3763e;Room 8.03;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+d03d02ed-568e-42b1-9a28-23d31547650d;Room 8.04;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+6c15a7bd-d78a-46fc-b448-df710c681b55;Room 8.05;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+480f59a8-ec3c-4d07-bd81-fe305732acc4;Room 8.06;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+191f9349-9628-4ded-af3d-b0218b606ac4;Room 8.07;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+82feacc1-d1a8-4f44-a053-e6bef039678e;Room 8.08;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+30873c31-8606-4cb4-a43c-d41ef5823190;Room 8.09;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+88b518e4-749f-408a-a4d8-2f7824d62e6c;Room 8.10;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+8f315cee-3554-47a5-8bd4-2b0596536329;Room 8.11;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+bdc433d3-cfc7-4df9-9d41-e18754141742;Room 8.12;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+ddbf9fd2-1c1b-42b2-af8e-ae48334ed9be;Room 8.13;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+c4a03326-5827-4575-9be8-ec52da43b0ea;Room 8.14;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+2ed7b86f-9d1c-4399-a7d5-0ce8d2818fc6;Room 8.15;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+3b84a99d-7e2e-4fdb-82ba-18324c8fb414;Room 8.16;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+227ea9ff-36af-4c2a-8955-43b972b118a9;Room 8.17;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+4b5e2962-69b6-4bef-aed3-45388b59be69;Room 8.18;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+45e4c428-a0ff-4852-a264-17c199689d7a;Room 8.19;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+e8a73604-b4a2-48a2-82a8-4e632704f3d1;Room 8.20;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+c60be8d0-c113-463e-96b8-3045b608af18;Room 8.21;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Workspace
+bd874c84-ca4d-41ea-8626-d3165d32cf4a;Room 8.22;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Meeting room
+8227d0cd-7845-4a38-833d-c217197a54c2;Room 8.23;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Meeting room
+324b6a51-279f-4390-ab9d-354783ed31af;Room 8.24;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Meeting room
+282b82aa-8d8a-4e84-ab41-c834bc6766ba;Room 8.25;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Meeting room
+7999c080-8cc7-4003-8400-c67627e49c4f;Room 8.26;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Kitchen
+e265ded1-80cf-4f90-80ab-13650a0b2970;Room 8.27;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Hall
+dfdabc18-64ca-4eb2-a519-6a4a5f945d4b;Room 8.t61;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Toilet
+8cc74e7f-dc53-409c-a17b-705af07c06b2;Room 8.t62;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Toilet
+7f6e4119-c608-4e8f-b163-93dc2e8b233f;Room 8.t63;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Toilet
+becf1949-e0a8-48e1-aad7-4436bc24f04e;Room 8.t64;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Toilet
+167c9fd1-b8aa-4f37-b930-9e75d24ae780;Room 8.t65;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Toilet
+360195d3-65d8-4b8a-af3a-7b45590a91c5;Hallway 8th floor;Space;8eb61f9d-af3e-43c2-b0a5-bfdfe6d1e7fb;Corridor
+9fcfbed2-2d3b-4b69-9fb5-17eae1c308b6;Room 9.01;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+0115f77f-928a-4daf-861c-2781616ca30c;Room 9.02;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+5223f60f-10aa-4ac4-a51e-c94516843d48;Room 9.03;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+8193ce1f-5014-44a7-9fc4-9d8aecc7dd13;Room 9.04;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+b449ac2d-ab73-45cf-9484-271876ed5abb;Room 9.05;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+9a6a45a4-e738-434a-9f43-f7be213c54f4;Room 9.06;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+444e4d03-020b-43a1-9f0e-3e30c229873d;Room 9.07;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+182fc3f4-a060-49f5-ab7f-a2eb50686e49;Room 9.08;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+9bddfc44-0f10-431f-9599-da47b507f6f4;Room 9.09;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+c731cbe8-4c7a-4919-861e-36a6852b498e;Room 9.10;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+66e5e45b-b2d7-44bf-a143-cf928047ea50;Room 9.11;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+142496b5-d9d0-4393-9375-0d08d87c4efb;Room 9.12;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+843f85dd-9a52-45db-9c16-45c230b2f293;Room 9.13;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+8456be8c-5f45-4cbe-9dfb-3f5fa46f5f69;Room 9.14;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+df825bdb-4fa4-4c8a-bd39-b4c6aa1e696f;Room 9.15;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+b7db5d8a-78f0-49b7-ba94-c4c366b46150;Room 9.16;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+948360b1-9ab2-4d21-a70e-fae556dbf391;Room 9.17;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+a3376794-ebca-4d9d-ab8c-c3e9f0adb28e;Room 9.18;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+493e666b-add3-487b-9ce8-77762ed9d3e5;Room 9.19;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+63db8a1e-f9da-4bdf-9e54-5cbc6d99d82a;Room 9.20;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+0df68c01-dab5-4ea2-8177-2d1bc5601851;Room 9.21;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Workspace
+f5962a11-6c68-451b-9f8d-1430376d0103;Room 9.22;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Meeting room
+4ff25f3f-ae7b-4a5e-8eed-d074a8312ebc;Room 9.23;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Meeting room
+3d3b1315-b333-4fae-9a49-68935a14a0f2;Room 9.24;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Meeting room
+cbb7f4bc-e7e8-4f9d-96fb-304b46ff5df4;Room 9.25;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Meeting room
+dd4f4b67-773f-4776-ac3f-88ed21f00640;Room 9.26;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Kitchen
+2a8667d8-3c93-41cd-84ac-80c6130061b5;Room 9.27;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Hall
+d9f9bda2-7b3f-46f1-8ff6-2a61b87511d9;Room 9.t61;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Toilet
+41fdb2ea-10a2-47cc-acd8-cab8347f7185;Room 9.t62;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Toilet
+6e526ba7-d424-4817-b181-960bb5fb5b2e;Room 9.t63;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Toilet
+a568c616-87ce-464e-b4d4-0837b2db9ffb;Room 9.t64;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Toilet
+43a5f3ed-a601-40ee-b07b-006e6dc401ab;Room 9.t65;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Toilet
+f2f345b2-9b39-43fa-a0ae-76acd21e04e2;Hallway 9th floor;Space;ced05a83-61cc-4d63-91e0-256011e401eb;Corridor
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;

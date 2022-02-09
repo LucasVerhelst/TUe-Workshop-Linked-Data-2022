@@ -1,0 +1,74 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix tue: <https://data.tue.nl/building-topology/> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix otl: <https://data.tue.nl/otl/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+tue:673c7ec1-abba-48f9-a65b-15e555f2f11b otl:reservation true .
+
+tue:c43703b8-d1d3-4cf4-a311-c352357c8308 otl:reservation false .
+
+tue:9fdab3a3-fc8d-412d-8eb3-8202dfb4d466 otl:reservation true .
+
+tue:8eaab2a6-83c0-4581-a578-5786120b7f63 otl:reservation false .
+
+tue:29bead22-c49a-44b0-a0de-f7c46b052cab otl:reservation true .
+
+tue:f3659c5d-b993-4c11-b5ef-9a0c4f67d18e otl:reservation true .
+
+tue:39522b40-455d-48ef-bcbe-f2d9e6129809 otl:reservation false .
+
+tue:a85a61d0-2753-47c0-a986-222219eebc41 otl:reservation true .
+
+tue:a420bc4e-48e4-43ee-9f57-cf8c1f68ca2b otl:reservation false .
+
+tue:443b7343-febe-4ab2-868d-f14edbc56560 otl:reservation false .
+
+tue:3592a898-1828-4b03-b0c8-9e44430f9480 otl:reservation false .
+
+tue:b46dee3e-9dc3-4c7e-94a0-1f438d81319d otl:reservation false .
+
+tue:d3400219-78c0-4186-98f7-06b94ba42df7 otl:reservation true .
+
+tue:3096acf6-9775-4b69-b87e-397a80e74fe1 otl:reservation false .
+
+tue:ace9dd8e-4771-4804-918e-40c44f07313c otl:reservation false .
+
+tue:2c2382e4-13f3-43b1-be7e-d84f5f44a47d otl:reservation false .
+
+tue:617af63d-7dac-4721-91cd-24fc359b18be otl:reservation true .
+
+tue:cbc5a160-8371-44d5-bdce-41275334be7a otl:reservation true .
+
+tue:628c6edb-35ac-4184-9af0-6b70a278ca2a otl:reservation false .
+
+tue:0b8d7277-491c-4e49-9cff-8ba3787460f9 otl:reservation true .
+
+tue:dc8cfbdf-4d4c-4f7d-99ec-2d46d1a60754 otl:reservation false .
+
+tue:ebe7ca68-abe0-4aab-b511-94175894d553 otl:reservation true .
+
+tue:6e8cbe79-122b-463a-89f7-52551d9b7c72 otl:reservation false .
+
+tue:c7004554-103a-445d-b450-7218b810ed35 otl:reservation false .
+
+tue:9e13ed5e-d3c0-4835-b273-4579f232b54d otl:reservation true .
+
+tue:bd874c84-ca4d-41ea-8626-d3165d32cf4a otl:reservation false .
+
+tue:8227d0cd-7845-4a38-833d-c217197a54c2 otl:reservation true .
+
+tue:324b6a51-279f-4390-ab9d-354783ed31af otl:reservation false .
+
+tue:282b82aa-8d8a-4e84-ab41-c834bc6766ba otl:reservation false .
+
+tue:f5962a11-6c68-451b-9f8d-1430376d0103 otl:reservation false .
+
+tue:4ff25f3f-ae7b-4a5e-8eed-d074a8312ebc otl:reservation true .
+
+tue:3d3b1315-b333-4fae-9a49-68935a14a0f2 otl:reservation false .
+
+tue:cbb7f4bc-e7e8-4f9d-96fb-304b46ff5df4 otl:reservation true .

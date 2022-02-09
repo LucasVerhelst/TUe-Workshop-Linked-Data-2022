@@ -1,0 +1,65 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "tue",
+          "uri": "https://data.tue.nl/building-topology/"
+        },
+        {
+          "name": "bot",
+          "uri": "https://w3id.org/bot#"
+        },
+        {
+          "name": "otl",
+          "uri": "https://data.tue.nl/otl/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "https://data.tue.nl/building-topology/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "Room",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "https://data.tue.nl/otl/occupancy",
+              "curie": "otl:occupancy",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "Occupants",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]

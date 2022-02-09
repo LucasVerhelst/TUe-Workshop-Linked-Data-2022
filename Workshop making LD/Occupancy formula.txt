@@ -1,0 +1,2 @@
+=IF(OR(C2="Bar",C2="Hallway",C2="Café",C2="Corridor"),RANDBETWEEN(0,50),IF(C2="Toilet",RANDBETWEEN(0,1),IF(C2="Meeting room",RANDBETWEEN(0,6),IF(OR(C2="Workspace",C2="Kitchen",C2="Hall"),RANDBETWEEN(0,4),""))))
+=IF(RAND()<=0.5,"True","False")

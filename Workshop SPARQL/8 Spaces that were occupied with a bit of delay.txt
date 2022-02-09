@@ -1,0 +1,34 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX otl: <https://data.tue.nl/otl/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT 
+
+?floor_name 
+?space_name
+
+WHERE 
+{
+	
+    ?space rdf:type bot:Space . # find all spaces
+    ?space rdfs:label ?space_name . # space_name = the label of each space
+    
+    ?space ^bot:contains ?floor. # floor that contains the space
+    ?floor rdfs:label ?floor_name . # floor_name = the label of each floor
+
+    # Reserved space
+    GRAPH <https://triplydb.com/LucasVerhelst/TUe-Workshop/graphs/Reservations>
+        {?space otl:reservation "true"^^xsd:boolean }
+    # Not occupied at 9:00
+    {graph <https://triplydb.com/LucasVerhelst/TUe-Workshop/graphs/Occupancy/1>
+        {?space otl:occupancy ?people_occ_1 .
+                filter (?people_occ_1 = 0 )}}
+    # Occupied at 9:05
+    {graph <https://triplydb.com/LucasVerhelst/TUe-Workshop/graphs/Occupancy/2>
+    {?space otl:occupancy ?people_occ_2 .
+                filter (?people_occ_2 > 0 )}}
+    
+} 
+ORDER BY ?floor_name ?space_name

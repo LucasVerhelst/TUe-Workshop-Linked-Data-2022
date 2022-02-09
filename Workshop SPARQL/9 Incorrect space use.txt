@@ -1,0 +1,51 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bot: <https://w3id.org/bot#>
+PREFIX otl: <https://data.tue.nl/otl/>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT 
+DISTINCT 
+
+?floor_name 
+( xsd:float(COUNT ( distinct ( ?space) ) ) / (COUNT ( distinct ( ?space_that_can_be_reserved ) ) ) AS ?percentage )
+
+WHERE 
+{
+	
+    ?space rdf:type bot:Space . # find all spaces
+        
+    ?space ^bot:contains ?floor. # floor that contains the space
+    ?floor rdfs:label ?floor_name . # floor_name = the label of each floor
+    
+    # Case 1: Spaces that are reserved but not occupied
+    # Reserved space
+    { GRAPH <https://triplydb.com/LucasVerhelst/TUe-Workshop/graphs/Reservations>
+        {?space otl:reservation "true"^^xsd:boolean }
+    # Not occupied
+    { GRAPH  <https://triplydb.com/LucasVerhelst/TUe-Workshop/graphs/Occupancy/1>
+        {?space otl:occupancy ?people_occ_1 .
+                filter (?people_occ_1 = 0 )}}
+  }
+    union
+    # Case 2: Spaces that are occupied but not reserved
+    
+    # Not reserved space
+    { GRAPH  <https://triplydb.com/LucasVerhelst/TUe-Workshop/graphs/Reservations>
+        {?space otl:reservation "false"^^xsd:boolean }
+       
+    # Occupied
+    { GRAPH  <https://triplydb.com/LucasVerhelst/TUe-Workshop/graphs/Occupancy/1>
+        {?space otl:occupancy ?people_occ_1 .
+                filter (?people_occ_1 > 0 )}}}
+    
+    
+	# find again all spaces of each floor (different variable)
+    ?floor bot:contains ?space_that_can_be_reserved. 
+    FILTER EXISTS # keep only spaces that can be reserved
+    { GRAPH  <https://triplydb.com/LucasVerhelst/TUe-Workshop/graphs/Reservations>
+        {?space_that_can_be_reserved otl:reservation ?reservation }} 
+
+} 
+GROUP BY ?floor_name
+ORDER BY ?floor_name

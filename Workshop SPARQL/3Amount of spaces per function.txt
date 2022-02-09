@@ -1,0 +1,21 @@
+PREFIX tue: <https://data.tue.nl/otl/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bot: <https://w3id.org/bot#>
+
+SELECT DISTINCT 
+
+?function 
+# count the spaces. The amount of count, is put in variable ?amount_of_spaces_per_floor.
+# How to count?. Check group by, below.
+(COUNT(?space) as ?amount_of_spaces_per_function) 
+
+WHERE 
+{
+  ?space rdf:type bot:Space .
+  ?space rdfs:label ?space_name .
+  
+  ?space tue:function ?function .
+
+} 
+GROUP BY ?function 

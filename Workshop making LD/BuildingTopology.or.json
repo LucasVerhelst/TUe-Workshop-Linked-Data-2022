@@ -1,0 +1,104 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "tue",
+          "uri": "https://data.tue.nl/building-topology/"
+        },
+        {
+          "name": "bot",
+          "uri": "https://w3id.org/bot#"
+        },
+        {
+          "name": "otl",
+          "uri": "https://data.tue.nl/otl/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "https://data.tue.nl/building-topology/",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "ID",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "type",
+                "expression": "\"https://w3id.org/bot#\"+value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "label",
+                "expression": "value",
+                "lang": "en",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://data.tue.nl/otl/function",
+              "curie": "otl:function",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "function",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            }
+          ],
+          "rdfTypes": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "containedBy",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "https://w3id.org/bot#contains",
+              "curie": "bot:contains",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "ID",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            }
+          ],
+          "rdfTypes": []
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
+  }
+]
